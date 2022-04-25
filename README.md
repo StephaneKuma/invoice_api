@@ -22,3 +22,4 @@ Follow the steps provided by this command and you'll be done with cretaing your 
 `py manage.py runserver`
 
 <mark>More features will be added to this API in the future</mark>
+<span style="color:white;background-color:blue;font-weight:bold;font-size:40;">More features will be added to this API in the future</span>
