@@ -20,3 +20,5 @@ Follow the steps provided by this command and you'll be done with cretaing your 
 4. Run the app and enjoy :joy:
 
 `py manage.py runserver`
+
+==More features will be added to this API in the future==
