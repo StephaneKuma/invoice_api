@@ -1,3 +1,4 @@
+from django.core.exceptions import PermissionDenied
 from django.shortcuts import render
 
 from rest_framework import viewsets
@@ -20,7 +21,6 @@ class ClientViewSet(viewsets.ModelViewSet):
         obj = self.get_object()
 
         if self.request.user != obj.created_by:
-            raise PermissionError('Wrong object owner')
+            raise PermissionDenied('Wrong object owner')
         
         serializer.save()
-    

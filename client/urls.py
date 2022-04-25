@@ -11,4 +11,3 @@ router.register('clients', ClientViewSet, basename='clients')
 urlpatterns = [
     path('', include(router.urls)),
 ]
-

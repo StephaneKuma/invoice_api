@@ -58,6 +58,7 @@ INSTALLED_APPS = [
     'djoser',
 
     'client.apps.ClientConfig',
+    'team.apps.TeamConfig',
 ]
 
 MIDDLEWARE = [
